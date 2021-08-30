@@ -167,8 +167,7 @@ h2.title {
 }
 
 .waiting_block img {
-    display: block;
-    margin: 0 auto;
+    width: 100%;
 }
 
 .waiting_block__text {
@@ -177,5 +176,49 @@ h2.title {
 }
 
 /* section waiting */
+
+/* section optimization */
+.optimization {
+    height: 550px;
+    position: relative;
+}
+
+.optimization_description {
+    display: inline-block;
+    margin: 108px 0 74px 392px;
+}
+
+.optimization_title {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+
+.optimization .container {
+    height: 100%;
+}
+
+.optimization img {
+    position: absolute;
+    z-index: -1;
+    top: 47px;
+    left: 0;
+}
+
+.optimization_description p {
+    margin-top: 25px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+}
+
+.optimization_description p span {
+    font-weight: 700;
+}
+/* section optimization */
 
 
