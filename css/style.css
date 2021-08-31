@@ -329,4 +329,24 @@ h2.title {
 }
 /* section webinar */
 
+/* footer */
+footer {
+    height: 169px;
+    background: #1A1A1A;
+    padding: 55px 0 69px 0;
+
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #888888;
+    text-align: center;
+}
+
+footer a {
+    color: #888888;
+    text-decoration-line: underline;
+}
+/* footer */
+
 
