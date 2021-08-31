@@ -20,6 +20,23 @@ body {
     background: #F9BF3B;
 }
 
+.btn {
+    display: block;
+    margin: 72px auto 0 auto;
+    width: 313px;
+    height: 72px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+    padding: 24px 15px;
+}
+
 /* section promo */
 .promo {
     height: 800px;
@@ -97,23 +114,6 @@ h2.title {
     text-transform: uppercase;
 }
 
-.promo_btn {
-    display: block;
-    margin: 72px auto 0 auto;
-    width: 313px;
-    height: 72px;
-    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    cursor: pointer;
-
-    font-family: Roboto Condensed;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
-    padding: 24px 15px;
-}
-
 .more {
     margin-top: 65px;
 }
@@ -135,7 +135,7 @@ h2.title {
 
 /* section waiting */
 .waiting {
-    height: 607px;
+    min-height: 607px;
     background-color: #EFEFEF;
     padding: 85px 0 75px 0;
 }
@@ -271,5 +271,27 @@ h2.title {
     color: #EFEFEF;
 }
 /* section ending-study */
+
+/* section gift */
+.gift {
+    min-height: 631px;
+    background-color: #EFEFEF;
+    padding: 85px 0 88px 0;
+}
+
+.gift img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift p {
+    margin-top: 45px;
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    color: #252525;
+}
+/* section gift */
 
 
